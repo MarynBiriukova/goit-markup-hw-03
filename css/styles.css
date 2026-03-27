@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+.header {
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name-card{
+    font-weight: 500;
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero{
+    background-color: #2E2F42;
+}
+.hero-title
+{
+    
+    color: white;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.order-button
+{
+    background-color: #4D5AE5;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+.order-button:hover,.order-button:focus{
+    background-color: #404BBF;
+}
+
+.link {
+    font-style: normal;
+    text-decoration: none;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+.link:hover, .link:focus{
+    color: #404BBF;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.logo-accent {
+    color: #4D5AE5; 
+}
+
+.order-button{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navigat, .navigat-stu{
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.navigat:hover, .navigat:focus, .navigat-stu:hover, .navigat-stu:focus{
+    color: #404BBF;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team{
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    
+}
+.person{
+    background-color: #ffffff;
+}
+
+.cont{
+    text-align: center;
+}
+
+.portfolio{
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-text{
+    letter-spacing: 0.02em;
+   /* color: inherit;*/
+}
+
+
