@@ -4,10 +4,32 @@ body {
     color: #2E2F42;
     background-color: #ffffff;
 }
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 .header {
     color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 a {
@@ -16,6 +38,45 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.contacts{
+   margin-left: auto; 
+}
+
+/*.header-nav{
+    display: flex;
+    align-items: center;
+}*/
+
+.header-ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.header-contacts{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .name-card{
@@ -24,6 +85,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
 }
 
 .text{
@@ -36,39 +98,56 @@ ul {
 
 .hero{
     background-color: #2E2F42;
+    padding: 188px 0;
+    /*margin: 0 auto;*/
 }
 .hero-title
 {
-    
+    box-sizing: border-box;
+    width: 496px;
     color: white;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    /*padding-top: 188px;*/
+    margin: 0 auto 48px;
 }
 
 .order-button
 {
+    display: block;
+    width: 169px;
+    height: 56px;
     background-color: #4D5AE5;
     color: white;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.04em;
+    margin: 0 auto;
+    /*padding-bottom: 188px;*/
 }
 .order-button:hover,.order-button:focus{
     background-color: #404BBF;
 }
 
 .link {
+    display: block;
     font-style: normal;
     text-decoration: none;
     color: #434455;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .link:hover, .link:focus{
     color: #404BBF;
+}
+
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo{
@@ -95,14 +174,32 @@ ul {
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 .navigat:hover, .navigat:focus, .navigat-stu:hover, .navigat-stu:focus{
     color: #404BBF;
 }
 
+.section{
+    padding: 120px 0;
+}
+
+.ul-features{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    /*margin: 120px auto;*/
+}
+
+.li-features{
+    width: calc((100%-3*24px)/4);
+}
+
 .section-team {
     background-color: #F4F4FD;
+    /*padding: 120px 0;*/
 }
 
 .team{
@@ -111,14 +208,27 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    padding-bottom: 72px;
     
 }
 .person{
     background-color: #ffffff;
+    width: calc((100%-3*24px)/4);
+    border-radius: 0 0 4px 4px;
+       /* padding: 0px 0px 32px;
+        width: 264px;
+        height: 380px;*/
+}
+
+.ul-person{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .cont{
     text-align: center;
+    padding: 32px 0;
 }
 
 .portfolio{
@@ -127,6 +237,25 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    padding-bottom: 72px;
+}
+
+.ul-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.li-portfolio {
+    width: calc((100%-3*24px)/4);
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.cont-portfolio{
+    text-align: left;
+    padding: 32px 16px;
 }
 
 .footer {
@@ -134,10 +263,21 @@ ul {
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
+    padding: 100px 0;
 }
 
+/*.footer-inf{
+    padding: 100px auto 100px 0;
+}*/
+
+
+/*.logo-footer{
+    padding-bottom: 16px;
+}*/
 .footer-text{
     letter-spacing: 0.02em;
+    width: 264px;
+    padding-top: 16px;
    /* color: inherit;*/
 }
 

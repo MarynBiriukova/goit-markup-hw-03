@@ -16,58 +16,64 @@
 </head>
 <body>
 <header class="header">
-    <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-    <nav>
-        <ul>
-            <li><a href="./index.html" class="navigat-stu">Studio</a></li>
-            <li><a href="" class="navigat">Portfolio</a></li>
-            <li><a href="" class="navigat">Contacts</a></li>
-        </ul>
-    </nav >
-    <address>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
-        </ul>
-    </address>
+    <div class="container header-container">
+        <a href="./index.html" class="logo header-logo"><span class="logo-accent">Web</span>Studio</a>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li><a href="./index.html" class="navigat-stu">Studio</a></li>
+                <li><a href="" class="navigat">Portfolio</a></li>
+                <li><a href="" class="navigat">Contacts</a></li>
+            </ul>
+        </nav >
+        <address class="contacts">
+            <ul class="header-contacts">
+                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+    </div>
 </header>
 <main>
 <section class="hero">
-   <h1 class="hero-title">Effective Solutions
-for Your Business</h1>
-<button type="button"  class="order-button">Order Service</button>
+   <div class="container"> 
+        <h1 class="hero-title">Effective Solutions
+    for Your Business</h1>
+        <button type="button"  class="order-button">Order Service</button>
+    </div>
 </section>
-<section>
-    <h2>Our Features</h2>
-    <ul>
-        <li>
+<section class="section">
+    <div class="container">
+    <h2 class="visually-hidden">Our Features</h2>
+    <ul class="ul-features">
+        <li class="li-features">
             <h3 class="name-card">Strategy</h3>
             <p class="text">Our goal is to identify the business
             problem to walk away with the perfect and creative solution.
             </p>
         </li>
-        <li>
+        <li class="li-features">
             <h3 class="name-card">Punctuality</h3>
             <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.
             </p>
         </li>
-        <li>
+        <li class="li-features">
             <h3 class="name-card">Diligence</h3>
             <p class="text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.
             </p>
         </li>
-        <li>
+        <li class="li-features">
             <h3 class="name-card">Technologies</h3>
             <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
             </p>
         </li>
     </ul>
-
+    </div>
 </section>
     
-<section class="section-team">
+<section class="section section-team">
+    <div class="container">
     <h2 class="team">Our Team</h2>
-    <ul>
+    <ul class="ul-person">
         <li class="person">
             <img src="./images/mark.jpg" alt="Card Mark Guerrero" width="264" height="260"
             />
@@ -102,51 +108,70 @@ for Your Business</h1>
         </li>
 
     </ul>
+    </div>
 </section>
-<section>
+<section class="section">
+<div class="container">
   <h2 class="portfolio">Our Portfolio</h2>
-  <ul>
-    <li>
+  <ul class="ul-portfolio">
+    <li class="li-portfolio">
         <img src="./images/bank.jpg" alt="Screens BankApp" width="360" height="300" />
+        <div class="cont-portfolio">
         <h3 class="name-card">Banking App</h3>
         <p class="text">App</p>
+        </div>
     </li>
-    <li>
+    <li class="li-portfolio">
         <img src="./images/code.jpg" alt="QR code" width="360" height="300" />
+        <div class="cont-portfolio">
         <h3 class="name-card">Cashless Payment</h3>
         <p class="text">Marketing</p>
+        </div>
     </li>
-    <li>
+    <li class="li-portfolio">
         <img src="./images/app.jpg" alt="Laptop and mobile app" width="360" height="300" />
+        <div class="cont-portfolio">
         <h3 class="name-card">Meditation App</h3>
         <p class="text">App</p>
+        </div>
     </li>
-    <li>
+    <li class="li-portfolio">
         <img src="./images/taxi.jpg" alt="Steering wheel and mobile map" width="360" height="300" />
+        <div class="cont-portfolio">
         <h3 class="name-card">Taxi Service</h3>
         <p class="text">Marketing</p>
+        </div>
     </li>
-    <li>
+    <li class="li-portfolio">
         <img src="./images/screen.jpg" alt="Mi Wallpaper" width="360" height="300" />
+        <div class="cont-portfolio">
         <h3 class="name-card">Screen Illustrations</h3>
         <p class="text">Design</p>
+        </div>
     </li>
-    <li>
+    <li class="li-portfolio">
         <img src="./images/courses.jpg" alt="A happy girl with a mobile" width="360" height="300" />
+        <div class="cont-portfolio">
         <h3 class="name-card">Online Courses</h3>
         <p class="text">Marketing</p>
+        </div>
     </li>
 
   </ul>
+</div>
 </section>
   
 </main>
 <footer class="footer">
-    <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-    <p class="footer-text">Increase the flow of customers and 
-    sales for your business with digital
-     marketing & growth solutions.
-    </p>
+    <div class="container">
+        <div class="footer-inf">
+            <a href="./index.html" class="logo logo-footer"><span class="logo-accent">Web</span>Studio</a>
+            <p class="footer-text">Increase the flow of customers and 
+            sales for your business with digital
+            marketing & growth solutions.
+            </p>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
