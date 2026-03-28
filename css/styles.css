@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p{
 .hero-title
 {
     box-sizing: border-box;
-    width: 496px;
+    max-width: 496px;
     color: white;
     font-weight: 700;
     font-size: 56px;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .footer-text{
     letter-spacing: 0.02em;
-    width: 264px;
+    max-width: 264px;
     padding-top: 16px;
 }
 
