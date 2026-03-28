@@ -230,8 +230,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .cont{
     text-align: center;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px 16px;
 }
 
 .portfolio{
